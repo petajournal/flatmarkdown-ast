@@ -258,6 +258,11 @@ export interface WikilinkNode {
   children?: AstNode[];
 }
 
+export interface HashtagNode {
+  type: 'hashtag';
+  value: string;
+}
+
 // ── Union Type ──
 
 export type AstNode =
@@ -308,4 +313,5 @@ export type AstNode =
   | RawNode
   | EscapedNode
   | EscapedTagNode
-  | WikilinkNode;
+  | WikilinkNode
+  | HashtagNode;
