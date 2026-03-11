@@ -27,7 +27,7 @@ All 46 AST node interfaces and the `AstNode` union type:
 
 **Block nodes:** `DocumentNode`, `ParagraphNode`, `HeadingNode`, `CodeBlockNode`, `BlockQuoteNode`, `MultilineBlockQuoteNode`, `ListNode`, `ItemNode`, `TaskItemNode`, `TableNode`, `TableRowNode`, `TableCellNode`, `ThematicBreakNode`, `HtmlBlockNode`, `FootnoteDefinitionNode`, `DescriptionListNode`, `DescriptionItemNode`, `DescriptionTermNode`, `DescriptionDetailsNode`, `AlertNode`, `FrontMatterNode`, `HeexBlockNode`, `SubtextNode`
 
-**Inline nodes:** `TextNode`, `SoftbreakNode`, `LinebreakNode`, `EmphNode`, `StrongNode`, `StrikethroughNode`, `UnderlineNode`, `HighlightNode`, `SuperscriptNode`, `SubscriptNode`, `SpoileredTextNode`, `CodeNode`, `LinkNode`, `ImageNode`, `FootnoteReferenceNode`, `ShortcodeNode`, `MathNode`, `HtmlInlineNode`, `HeexInlineNode`, `RawNode`, `EscapedNode`, `EscapedTagNode`, `WikilinkNode`
+**Inline nodes:** `TextNode`, `SoftbreakNode`, `LinebreakNode`, `EmphNode`, `StrongNode`, `StrikethroughNode`, `UnderlineNode`, `HighlightNode`, `SuperscriptNode`, `SubscriptNode`, `SpoileredTextNode`, `CodeNode`, `LinkNode`, `ImageNode`, `FootnoteReferenceNode`, `ShortcodeNode`, `MathNode`, `HtmlInlineNode`, `HeexInlineNode`, `RawNode`, `EscapedNode`, `EscapedTagNode`, `WikilinkNode`, `HashtagNode`
 
 ## License
 
